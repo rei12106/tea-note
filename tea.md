@@ -28,7 +28,7 @@ sequenceDiagram
   U ->> K : ケトルで湧いたお湯をポットに注ぐ
   deactivate K
   K ->> P : 
-  U ->> P : ポットにお湯を被せるなどし、保温しながら蒸らす
+  U ->> P : ポットに布を被せるなどし、保温しながら蒸らす
   activate P
   
   opt カップを温める場合
